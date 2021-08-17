@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with PowerFactory 2021 SP2 (x64) (digcimdb.dll ServicePack 0) -->
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <md:FullModel rdf:about="urn:uuid:07d998b9-1953-4bd7-8874-e1b276258e68">
+    <md:Model.DependentOn rdf:resource="urn:uuid:95b9e714-9677-45ac-8bfd-e847f0f8a576" />
+    <md:Model.created>2021-08-17T19:54:07Z</md:Model.created>
+    <md:Model.modelingAuthoritySet>www.unal.edu.co</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
+    <md:Model.scenarioTime>2021-07-22T16:07:23Z</md:Model.scenarioTime>
+  </md:FullModel>
+  <cim:Terminal rdf:about="#_2ba50f40-e384-e679-649c-16a8b5fcbcc0">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8bcd27e7-ac7a-6a40-0297-eddfb44876e7">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c4b76355-a212-61c9-8a8b-5b3490f529be">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fdd3ca50-11e9-8b29-124e-af190ba7f16f">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_af46ba9f-f1d5-5462-02cf-a9b03c1a99a3">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c3362574-d6f1-2d8d-2222-b06d37f75262">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5a975a80-9407-d88f-d40f-b5bf95bf763a">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6beee631-a134-b769-c3b9-96b7149bf7b5">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8516f1da-2965-d5a7-e35d-afef6fdf0c5c">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:ConformLoad rdf:about="#_e515d6a7-0fcf-4683-824b-6333c92009ef">
+    <cim:EnergyConsumer.p>15</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+  </cim:ConformLoad>
+  <cim:ExternalNetworkInjection rdf:about="#_03a5a12a-e06d-434d-ab72-f3b7a2d5e329">
+    <cim:ExternalNetworkInjection.p>0</cim:ExternalNetworkInjection.p>
+    <cim:ExternalNetworkInjection.q>0</cim:ExternalNetworkInjection.q>
+    <cim:ExternalNetworkInjection.referencePriority>1</cim:ExternalNetworkInjection.referencePriority>
+    <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+  </cim:ExternalNetworkInjection>
+  <cim:RegulatingControl rdf:about="#_561d9c5a-0ce4-18b4-7689-70fea9c2d182">
+    <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+    <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+    <cim:RegulatingControl.targetValue>220</cim:RegulatingControl.targetValue>
+    <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k" />
+  </cim:RegulatingControl>
+  <cim:RatioTapChanger rdf:about="#_7ed7c136-5737-9c3d-3261-5d5c20c1d775">
+    <cim:TapChanger.controlEnabled>false</cim:TapChanger.controlEnabled>
+    <cim:TapChanger.step>0</cim:TapChanger.step>
+  </cim:RatioTapChanger>
+  <cim:GeneratingUnit rdf:about="#_84a097be-21b1-5954-66bb-9eb18cf5f111">
+    <cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
+  </cim:GeneratingUnit>
+  <cim:SynchronousMachine rdf:about="#_65dbfced-673a-4a8d-9185-4f897f6295a5">
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    <cim:RotatingMachine.p>-13</cim:RotatingMachine.p>
+    <cim:RotatingMachine.q>-3.5</cim:RotatingMachine.q>
+    <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator" />
+    <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+  </cim:SynchronousMachine>
+</rdf:RDF>
