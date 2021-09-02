@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with PowerFactory 2021 SP2 (x64) (digcimdb.dll ServicePack 0) -->
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <md:FullModel rdf:about="urn:uuid:1489dc5f-6f76-4e9c-b8f0-d3d7f15217c9">
+    <md:Model.DependentOn rdf:resource="urn:uuid:f31ca0f7-9d57-4295-809b-260e36817253" />
+    <md:Model.created>2021-08-30T15:32:12Z</md:Model.created>
+    <md:Model.modelingAuthoritySet>www.unal.edu.co</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://entsoe.eu/CIM/Dynamics/3/1</md:Model.profile>
+    <md:Model.scenarioTime>2021-07-22T16:07:23Z</md:Model.scenarioTime>
+  </md:FullModel>
+  <cim:SynchronousMachineTimeConstantReactance rdf:ID="_81f01ba1-ffe9-41f2-4f45-d7572b4bf831">
+    <cim:DynamicsFunctionBlock.enabled>true</cim:DynamicsFunctionBlock.enabled>
+    <cim:IdentifiedObject.name>Gen1</cim:IdentifiedObject.name>
+    <cim:RotatingMachineDynamics.damping>0</cim:RotatingMachineDynamics.damping>
+    <cim:RotatingMachineDynamics.inertia>4.35</cim:RotatingMachineDynamics.inertia>
+    <cim:RotatingMachineDynamics.saturationFactor>0.065</cim:RotatingMachineDynamics.saturationFactor>
+    <cim:RotatingMachineDynamics.saturationFactor120>0.165</cim:RotatingMachineDynamics.saturationFactor120>
+    <cim:RotatingMachineDynamics.statorLeakageReactance>0.16</cim:RotatingMachineDynamics.statorLeakageReactance>
+    <cim:RotatingMachineDynamics.statorResistance>0</cim:RotatingMachineDynamics.statorResistance>
+    <cim:SynchronousMachineDetailed.efdBaseRatio>1</cim:SynchronousMachineDetailed.efdBaseRatio>
+    <cim:SynchronousMachineDetailed.ifdBaseType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#IfdBaseKind.ifag" />
+    <cim:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_120ecb75-a2bd-4e0e-9596-876d7a9bffc7" />
+    <cim:SynchronousMachineTimeConstantReactance.modelType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineModelKind.subtransient" />
+    <cim:SynchronousMachineTimeConstantReactance.rotorType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.salientPole" />
+    <cim:SynchronousMachineTimeConstantReactance.tpdo>28.2613</cim:SynchronousMachineTimeConstantReactance.tpdo>
+    <cim:SynchronousMachineTimeConstantReactance.tppdo>0.05075</cim:SynchronousMachineTimeConstantReactance.tppdo>
+    <cim:SynchronousMachineTimeConstantReactance.tppqo>0.334698</cim:SynchronousMachineTimeConstantReactance.tppqo>
+    <cim:SynchronousMachineTimeConstantReactance.tpqo>0</cim:SynchronousMachineTimeConstantReactance.tpqo>
+    <cim:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.184</cim:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+    <cim:SynchronousMachineTimeConstantReactance.xDirectSync>0.987</cim:SynchronousMachineTimeConstantReactance.xDirectSync>
+    <cim:SynchronousMachineTimeConstantReactance.xDirectTrans>0.322</cim:SynchronousMachineTimeConstantReactance.xDirectTrans>
+    <cim:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0.172</cim:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+    <cim:SynchronousMachineTimeConstantReactance.xQuadSync>0.514</cim:SynchronousMachineTimeConstantReactance.xQuadSync>
+    <cim:SynchronousMachineTimeConstantReactance.xQuadTrans>0.3</cim:SynchronousMachineTimeConstantReactance.xQuadTrans>
+  </cim:SynchronousMachineTimeConstantReactance>
+</rdf:RDF>
